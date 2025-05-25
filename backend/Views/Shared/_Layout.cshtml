@@ -1,0 +1,128 @@
+﻿@using backend.Models
+@using backend.Helpers
+
+@{
+    var cart = Context.Session.GetObjectFromJson<List<CartItem>>("Cart") ?? new List<CartItem>();
+    ViewBag.CartItems = cart;
+    ViewBag.CartTotal = cart.Sum(i => i.Price * i.Quantity);
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Scarloom Candle</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/backend.styles.css" asp-append-version="true" />
+</head>
+
+<body>
+    <div class="frame-div">
+        <nav class="custom-navbar">
+            <div class="navbar-content">
+                <div class="navbar-left">
+                    @if (User.Identity != null && User.Identity.IsAuthenticated)
+                    {
+                        <div class="d-flex gap-2">
+                            <a asp-controller="Account" asp-action="Profile" class="btn ">My Account</a>
+                            <form asp-controller="Account" asp-action="Logout" method="post">
+                                <button type="submit" class="btn ">Log Out</button>
+                            </form>
+                        </div>
+                    }
+                    else
+                    {
+                        <a asp-controller="Account" asp-action="Login" class="btn btn-outline-dark">Log in / Sign Up</a>
+                    }
+                </div>
+                <div class="navbar-center">
+                    <h1 class="main-title">Scarloom Candle</h1>
+                </div>
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="cartDropdown" role="button"
+                        data-bs-toggle="dropdown">
+                        🛒 Cart ( @ViewBag.CartItems?.Count ?? 0 )
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="cartDropdown">
+                        @if (ViewBag.CartItems != null && ViewBag.CartItems.Count > 0)
+                        {
+                            foreach (var item in ViewBag.CartItems)
+                            {
+                                <li class="dropdown-item">
+                                    @item.Name - @item.Quantity
+                                </li>
+                            }
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li class="dropdown-item">
+                                <strong>Total: @ViewBag.CartTotal $</strong>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-primary" href="/Cart">Cart Details</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="dropdown-item text-muted">Empty Cart</li>
+                        }
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+
+        <nav class="surf-nav">
+            <a class="nav-link link-title" asp-controller="Home" asp-action="Index">Main Page</a>
+            <a class="nav-link link-title" asp-controller="Product" asp-action="Index">Products</a>
+            <a class="nav-link link-title" asp-controller="Home" asp-action="Soy">What is Soy
+                Candle?</a>
+            <a class="nav-link link-title" asp-controller="Home" asp-action="About">About us</a>
+        </nav>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer class="pt-4  pt-md-5 py-4 px-5 " style="background-color: rgb(52, 17, 17); color:whitesmoke;">
+            <div class="row ">
+                <div class="col-12 col-md">
+                    <div class="image-wrapper">
+                        <img src="../images/candle_icon.png" alt="Soy Candle " style="width: 150px;">
+                    </div>
+                    <small class="d-block mb-3" style="color:whitesmoke;">&copy; Scarloom Candle</small>
+                </div>
+                <div class="col-6 col-md text-start">
+                    <h5 style="font-style:italic;">Our Store</h5>
+                    <ul class="list-unstyled text-small" style="color:whitesmoke;">
+                        <a class="nav-link link-title" asp-controller="Home" asp-action="Index">Main Page</a>
+                        <a class="nav-link link-title" asp-controller="Product" asp-action="Index">Products</a>
+                        <a class="nav-link link-title" asp-controller="Home" asp-action="Soy">What is Soy
+                            Candle?</a>
+                        <a class="nav-link link-title" asp-controller="Home" asp-action="About">About us</a>
+                    </ul>
+                </div>
+                <div class="col-6 col-md text-start">
+                    <h5 style="font-style:italic;">Get In Touch</h5>
+                    <ul class="list-unstyled text-small">
+                        <li>742 Evergreen Terrace, Apt. 5B</li>
+                        <li> 312-555-0198</li>
+                        <li>scarloomcandle@mailtest.net</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+
+</html>

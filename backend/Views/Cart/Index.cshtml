@@ -1,0 +1,50 @@
+@model List<CartItem>
+@{
+    ViewBag.Title = "My Cart";
+    Layout = "_Layout";
+}
+
+<h2>My Cart</h2>
+
+@if (Model.Count == 0)
+{
+    <p>Empty Cart.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Checkout</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>
+                        <a href="/Cart/Decrease?productId=@item.ProductID">➖</a>
+                        @item.Quantity
+                        <a href="/Cart/Increase?productId=@item.ProductID">➕</a>
+                    </td>
+                    <td>@item.Price ₺</td>
+                    <td>@(item.Price* item.Quantity) ₺</td>
+                    <td>
+                        <a class="btn btn-danger btn-sm" href="/Cart/Remove?productId=@item.ProductID">Remove</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h4>Total: <strong>@ViewBag.CartTotal $</strong></h4>
+
+    <form method="post" action="/Cart/Checkout">
+        <button type="submit" class="btn product-button" >Complete Purchase</button>
+    </form>
+}

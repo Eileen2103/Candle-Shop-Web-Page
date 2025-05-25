@@ -1,0 +1,46 @@
+INSERT INTO Products ("name","SubTitle","Description","OrderPrice","ImagePath","ID") VALUES ("Cremaura Candle","Natural Soy Candle in Glass Bowl with Wooden Wick","Height: 12.5 cm  Diameter: 5 cm",20.00,"images/ceramicNo1_1.jpg",1);
+
+INSERT INTO Products ("name","SubTitle","Description","OrderPrice","ImagePath","ID") VALUES ("Perla Candle","Pearlescent off-white pillar candle made from natural soy","Height: 11 cm",13.00,"images/IMG_1116.jpg",2);
+
+INSERT INTO Products ("name","SubTitle","Description","OrderPrice","ImagePath","ID") VALUES ("Hidden Message Candle","Hand-poured natural soy candle in a glass jar with your personalized message","Jar volume: 330 cc.",25.00,"images/message_1.jpg",3);
+
+INSERT INTO Products ("name","SubTitle","Description","OrderPrice","ImagePath","ID") VALUES ("Alea No3 Candle","Named 'Aléa', a word derived from French, this candle evokes a sense of elegance and fluidity , just like its name.Price is for a single candle","Height: 14 cm",14.00,"images/tapperNo2_1.jpg",4);
+
+INSERT INTO Products ("name","SubTitle","Description","OrderPrice","ImagePath","ID") VALUES ("Pumpkin Candle Set","3 different size of tangerine smelled soy candles.","Total Weight: 750 g",22.00,"images/pumpkin_set1.jpg",5);
+
+INSERT INTO Products ("name","SubTitle","Description","OrderPrice","ImagePath","ID") VALUES ("Zodiac Candles","Special natural soy jar candle with a wooden wick and zodiac-themed label","Handmade soy candle featuring unique labels for each zodiac sign — showcasing your astrological traits and star map.",28.00,"images/zodiac_1.jpg",6);
+
+
+ALTER TABLE Products ADD COLUMN Category TEXT;
+
+UPDATE Products SET Category ="ceramic" WHERE ID=1;
+UPDATE Products SET Category ="pillar" WHERE ID=2;
+UPDATE Products SET Category ="jar" WHERE ID=3;
+UPDATE Products SET Category ="pillar" WHERE ID=4;
+UPDATE Products SET Category ="themed" WHERE ID=5;
+UPDATE Products SET Category ="jar" WHERE ID=6;
+
+INSERT INTO Users ("name","Email","password","Address","PhoneNumber","ID") VALUES ("Aylin Türkyılmaz","aylin2121@hotmail.com","aylin3434","Ekinoba Mahallesi Öztanık Caddesi Mimaroba",05423333333,1);
+
+INSERT INTO Users ("name", "Email", "password", "Address", "PhoneNumber", "ID") VALUES
+("Mert Aydın", "mertaydin22@example.com", "mert2025", "Çamlık Mahallesi, Vatan Sokak No:3, Ankara", "05416678900", 2),
+("Selin Demir", "selindemir88@example.com", "selin@88", "Kültür Mahallesi, Çiçek Sk. No:11, İzmir", "05073334456", 3),
+("Kerem Şahin", "kerem.sahin@example.com", "kerem456", "Yeşilyurt Mahallesi, Göl Caddesi No:19, Bursa", "05307778899", 4),
+("Zeynep Arslan", "zeynepars@example.com", "zeynep99", "Atakent Mahallesi, Selvi Sok. No:8, İstanbul", "05512223344", 5),
+("Ali Kılıç", "alikilic42@example.com", "aliKILIC42", "Bahçelievler Mah., 10. Cadde No:7, Konya", "05078889911", 6),
+("Melis Kaya", "melis.kaya@example.com", "melisKya!", "Deniz Mahallesi, Lale Sk. No:3, Antalya", "05443332211", 7),
+("Emre Güneş", "emregunes34@example.com", "emreG2024", "Yenişehir Mahallesi, Gökkuşağı Cd. No:12, Mersin", "05363337700", 8),
+("Aslı Kurt", "aslikurt91@example.com", "asl1Kurt*", "Tunalı Hilmi Cad., No:25, Çankaya/Ankara", "05113336677", 9),
+("Burak Tan", "buraktan23@example.com", "buraK!23", "Cevizli Mahallesi, Sahil Sok. No:9, İstanbul", "05557774400", 10);
+
+UPDATE Users SET PhoneNumber ="05423333333" WHERE ID=1;
+
+INSERT INTO Orders ("OrderPrice","OrderDate","customerID","ID") VALUES (20.00,CURRENT_TIMESTAMP,2,1);
+
+
+UPDATE Products SET Rating=4.50 WHERE ID=3;
+UPDATE Products SET Rating=4.00 WHERE ID=6;
+UPDATE Products SET Rating=3.50 WHERE ID=1;
+UPDATE Products SET Rating=3.00 WHERE ID=2;
+UPDATE Products SET Rating=4.30 WHERE ID=5;
+

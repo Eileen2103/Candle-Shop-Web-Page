@@ -1,0 +1,78 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<div class="image-container">
+    <div class="context-div">
+        <p style="font-size: 30px; ">Meet our 100% vegan soy special designed candles.</p>
+
+    </div>
+</div>
+<div class="sub-menu-container container px-10 my-4">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <a asp-controller="Product" asp-action="Index" asp-route-category="pillar" class="nav-link link-title">
+                <div class="card mb-4 shadow-sm">
+                    <img src="div_images/1.png" class="card-img-top" alt="">
+                    <div class="card-overlay">
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <a asp-controller="Product" asp-action="Index" asp-route-category="themed" class="nav-link link-title">
+                <div class="card mb-4 shadow-sm">
+                    <img src="div_images/4.png" class="card-img-top" alt="">
+                    <div class="card-overlay">
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <a asp-controller="Product" asp-action="Index" asp-route-category="ceramic" class="nav-link link-title">
+                <div class="card mb-4 shadow-sm">
+                    <img src="div_images/3.png" class="card-img-top" alt="">
+                    <div class="card-overlay">
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col">
+            <a asp-controller="Product" asp-action="Index" asp-route-category="jar" class="nav-link link-title">
+                <div class="card mb-4 shadow-sm">
+                    <img src="div_images/2.png" class="card-img-top" alt="">
+                    <div class="card-overlay">
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<div class="best-seller-title">
+    <p>BEST SELLER PRODUCTS</p>
+    <hr class="divider" />
+</div>
+<div class="col-md-9">
+    <div class="row row-cols-1 row-cols-md-3 g-4 py-5 justify-content-center">
+        @foreach (var product in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm" style="border-radius: 10px; transition: transform 0.2s ease">
+                    <div class="image-wrapper">
+                        <img src="~/@product.ImagePath" class="card-img-top product-image" alt="@product.Name" />
+                    </div>
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h6 class="best-seller-title ">@product.Name</h6>
+                        <p class="card-text">@product.OrderPrice.ToString("C", new System.Globalization.CultureInfo("en-US"))
+                        </p>
+                        <p class="card-text text-warning">⭐ @product.Rating</p>
+                        <a href="@Url.Action("Details", "Product", new { id = product.ID })" class="product-button">View
+                            Details</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

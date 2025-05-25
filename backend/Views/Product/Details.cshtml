@@ -1,0 +1,30 @@
+@model backend.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<div class="details-container my-5">
+    <div class="row align-items-center">
+
+        <div class="col-md-6 mb-4 mb-md-0">
+            <img src="@Url.Content("~/" + Model.ImagePath)" alt="@Model.Name" class="img-fluid rounded product-image" />
+        </div>
+
+        <div class="col-md-6">
+            <h2 class="fw-bold mb-3" style="font-size: 2rem;">@Model.Name</h2>
+            <p class="text-muted mb-2">@Model.SubTitle</p>
+            <p class="mb-4">@Model.Description</p>
+
+            <h4 class="text-danger mb-4" style="font: size 1.5rem; font-weight:600;">@Model.OrderPrice.ToString("C",new
+                                System.Globalization.CultureInfo("en-US"))
+            </h4>
+
+            <form method="post" action="/Product/AddToCart?productId=@Model.ID">
+                <button class="product-button px-4 py-2">Add to
+                    Cart</button>
+            </form>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,425 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\backend.bundle.scp.css",
+      "PackagePath": "staticwebassets\\backend.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\div_images\\1.png",
+      "PackagePath": "staticwebassets\\div_images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\div_images\\2.png",
+      "PackagePath": "staticwebassets\\div_images\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\div_images\\3.png",
+      "PackagePath": "staticwebassets\\div_images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\div_images\\4.png",
+      "PackagePath": "staticwebassets\\div_images\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\icons\\Circled S.png",
+      "PackagePath": "staticwebassets\\icons\\Circled S.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\icons\\Instagram.png",
+      "PackagePath": "staticwebassets\\icons\\Instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\icons\\Search.png",
+      "PackagePath": "staticwebassets\\icons\\Search.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\IMG_1116.JPG",
+      "PackagePath": "staticwebassets\\images\\IMG_1116.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\about_us_bg.png",
+      "PackagePath": "staticwebassets\\images\\about_us_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\burnt_candles.png",
+      "PackagePath": "staticwebassets\\images\\burnt_candles.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\candleBG.webp",
+      "PackagePath": "staticwebassets\\images\\candleBG.webp"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\candleBG2.png",
+      "PackagePath": "staticwebassets\\images\\candleBG2.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\candle_icon.png",
+      "PackagePath": "staticwebassets\\images\\candle_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\candle_icon2.png",
+      "PackagePath": "staticwebassets\\images\\candle_icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\candle_icon3.png",
+      "PackagePath": "staticwebassets\\images\\candle_icon3.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\candle_line.png",
+      "PackagePath": "staticwebassets\\images\\candle_line.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\candle_making.png",
+      "PackagePath": "staticwebassets\\images\\candle_making.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\candle_making2.png",
+      "PackagePath": "staticwebassets\\images\\candle_making2.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\cart.png",
+      "PackagePath": "staticwebassets\\images\\cart.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\ceramicNo1_1.JPG",
+      "PackagePath": "staticwebassets\\images\\ceramicNo1_1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\message_1.JPG",
+      "PackagePath": "staticwebassets\\images\\message_1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\pumpkin_set1.JPG",
+      "PackagePath": "staticwebassets\\images\\pumpkin_set1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\soy.png",
+      "PackagePath": "staticwebassets\\images\\soy.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\soy1.png",
+      "PackagePath": "staticwebassets\\images\\soy1.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\soy_bg.png",
+      "PackagePath": "staticwebassets\\images\\soy_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\soy_crop.png",
+      "PackagePath": "staticwebassets\\images\\soy_crop.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\soy_farm.png",
+      "PackagePath": "staticwebassets\\images\\soy_farm.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\soy_making.png",
+      "PackagePath": "staticwebassets\\images\\soy_making.png"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\tapperNo1_1.JPG",
+      "PackagePath": "staticwebassets\\images\\tapperNo1_1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\tapperNo2_1.JPG",
+      "PackagePath": "staticwebassets\\images\\tapperNo2_1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\tapperNo3_1.JPG",
+      "PackagePath": "staticwebassets\\images\\tapperNo3_1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\images\\zodiac_1.JPG",
+      "PackagePath": "staticwebassets\\images\\zodiac_1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\product_images\\IMG_1116.JPG",
+      "PackagePath": "staticwebassets\\product_images\\IMG_1116.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\product_images\\ceramicNo1_1.JPG",
+      "PackagePath": "staticwebassets\\product_images\\ceramicNo1_1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\product_images\\message_1.JPG",
+      "PackagePath": "staticwebassets\\product_images\\message_1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\product_images\\pumpkin_set1.JPG",
+      "PackagePath": "staticwebassets\\product_images\\pumpkin_set1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\product_images\\tapperNo1_1.JPG",
+      "PackagePath": "staticwebassets\\product_images\\tapperNo1_1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\product_images\\tapperNo2_1.JPG",
+      "PackagePath": "staticwebassets\\product_images\\tapperNo2_1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\product_images\\tapperNo3_1.JPG",
+      "PackagePath": "staticwebassets\\product_images\\tapperNo3_1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\aylin\\Desktop\\Bilgisayar Dersleri\\web programming\\backup\\backend\\wwwroot\\product_images\\zodiac_1.JPG",
+      "PackagePath": "staticwebassets\\product_images\\zodiac_1.JPG"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.backend.props",
+      "PackagePath": "build\\backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.backend.props",
+      "PackagePath": "buildMultiTargeting\\backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.backend.props",
+      "PackagePath": "buildTransitive\\backend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
